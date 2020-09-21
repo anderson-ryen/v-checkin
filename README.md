@@ -11,7 +11,8 @@
 > 用来定时执行脚本
 
 ## 获取Cookie
-
+注：需要先登录账号！
+    不然获取不到下列的数据
 1. 电脑打开浏览器访问`v.qq.com`，打开控制台(`F12`)、切换到Network，找到 `https://access.video.qq.com/user/auth_refresh` 的接口，把`Request URL:`后的地址都复制一下，填写到脚本的`auth_refresh_url`中，如：
 
 ![获取auth_refresh接口](https://cdn.jsdelivr.net/gh/sy-records/v-checkin@master/images/get-auth_refresh.png)
